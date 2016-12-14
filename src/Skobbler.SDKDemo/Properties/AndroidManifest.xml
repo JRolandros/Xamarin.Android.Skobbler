@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.skobbler.sdkdemo" android:versionCode="4" android:versionName="3.0">
-	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
+	<uses-sdk android:minSdkVersion="15" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -9,7 +9,7 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-feature android:glEsVersion="0x00020000" android:required="true" />
 	<application android:name="skobbler.sdkdemo.application.DemoApplication" android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name">
-		<meta-data android:name="com.skobbler.ngx.API_KEY" android:value="" />
+		<meta-data android:name="com.skobbler.ngx.API_KEY" android:value="5ca69568e5eebf93dcb55c5c7a689ba26198ad038b6d409191567255c023cfa3" />
 		<receiver android:name="skobbler.ngx.sdktools.navigationui.autonight.SKToolsCalculateSunriseSunsetTimeAutoReceiver" />
 		<receiver android:name="skobbler.ngx.sdktools.navigationui.autonight.SKToolsChangeMapStyleAutoReceiver" />
 		<meta-data android:name="provideMultipleMapSupport" android:value="false" />
